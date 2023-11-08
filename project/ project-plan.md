@@ -24,7 +24,12 @@ tech workplace. We do have some interesting features which could be cause of men
 * Data Type: CSV
 
 ## Work Packages
-1. Data Collection
-2. Data Cleaning and Pre-processing
-3. Data Analysis
-4. Interpret Results
+1. Data Collection [#1][i1]
+2. Data Cleaning and Pre-processing [#2][i2]
+3. Data Analysis [#3][i3]
+4. Interpret Results [#4][i4]
+
+[i1]: https://github.com/parth-ghinaiya/made-template/issues/3
+[i2]: https://github.com/parth-ghinaiya/made-template/issues/4
+[i3]: https://github.com/parth-ghinaiya/made-template/issues/5
+[i4]: https://github.com/parth-ghinaiya/made-template/issues/6
