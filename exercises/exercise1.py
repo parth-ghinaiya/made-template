@@ -28,4 +28,4 @@ types = {
 }
 
 # Write the dataframe to the SQLite database
-df.to_sql("airports", engine, index=False, dtype=types)
+df.to_sql("airports", engine, index=False, if_exists='replace', dtype=types)
