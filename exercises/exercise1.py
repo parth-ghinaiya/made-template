@@ -9,7 +9,6 @@ df = pd.read_csv(
     'https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-flughafen-weltweit/exports/csv',
     sep=';')
 
-
 # defined column types based on sqlalchemy
 types = {
     'column_1': BIGINT(),
