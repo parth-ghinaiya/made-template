@@ -1,26 +1,27 @@
 # Project Plan
 
-## Metal disorder with the Tech workplace
-Find out effect of the tech job on mental health on different age group.
+## How Crude oil price impact on Honda's used car selling 
+Find out effect of the crude-oil on Honda's second hand car market.
 
 ## Main Question
-1. How tech job affects on mental health of different age groups?
+1. How crude-oil affects on price of Honda's various second-hand car models?
 
 ## Description
-Here we have 2 fantastic dataset to figure out relationship with mental disorder for those who working in the 
-tech workplace. We do have some interesting features which could be cause of mental disorder along with tech job. 
+Here we have dataset of crude-oil's price and it's fluctuation over the period of time. 
+Along with that we have a dataset of Honda's used car selling. Using these datasets we can find out
+relations between crude-oil price and car selling.
 
 ## Datasources
 
-### Datasource1: Gender Mental Disorder Prevalence
+### Datasource1: Honda Used Car Selling
 
-* Metadata URL: https://www.kaggle.com/datasets/thedevastator/gender-mental-disorder-prevalence-2019
-* Data URL: https://www.kaggle.com/datasets/thedevastator/gender-mental-disorder-prevalence-2019/download?datasetVersionNumber=2
+* Metadata URL: https://www.kaggle.com/datasets/themrityunjaypathak/honda-car-selling
+* Data URL: https://www.kaggle.com/datasets/themrityunjaypathak/honda-car-selling/download?datasetVersionNumber=1
 * Data Type: CSV
 
-### Datasource2: Mental Health in Tech Survey
-* Metadata URL: https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
-* Data URL: https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey/download?datasetVersionNumber=3
+### Datasource2: Crude Oil Price
+* Metadata URL: https://www.kaggle.com/datasets/sc231997/crude-oil-price
+* Data URL: https://www.kaggle.com/datasets/sc231997/crude-oil-price/download?datasetVersionNumber=31
 * Data Type: CSV
 
 ## Work Packages
