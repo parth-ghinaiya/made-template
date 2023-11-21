@@ -1,27 +1,27 @@
 # Project Plan
 
-## How Crude oil price impact on Honda's used car selling 
-Find out effect of the crude-oil on Honda's second hand car market.
+## How Crude oil price impact on Gold market
+Find out effect of the crude-oil on Gold prices in different countries.
 
 ## Main Question
-1. How crude-oil affects on price of Honda's various second-hand car models?
+1. How crude-oil affects on price of Gold prices?
 
 ## Description
 Here we have dataset of crude-oil's price and it's fluctuation over the period of time. 
-Along with that we have a dataset of Honda's used car selling. Using these datasets we can find out
-relations between crude-oil price and car selling.
+Along with that we have a dataset of Gold prices in different countries. Using these datasets we can find out
+relations between crude-oil price and gold market.
 
 ## Datasources
 
-### Datasource1: Honda Used Car Selling
-
-* Metadata URL: https://www.kaggle.com/datasets/themrityunjaypathak/honda-car-selling
-* Data URL: https://www.kaggle.com/datasets/themrityunjaypathak/honda-car-selling/download?datasetVersionNumber=1
-* Data Type: CSV
-
-### Datasource2: Crude Oil Price
+### Datasource1: Crude Oil Price
 * Metadata URL: https://www.kaggle.com/datasets/sc231997/crude-oil-price
 * Data URL: https://www.kaggle.com/datasets/sc231997/crude-oil-price/download?datasetVersionNumber=31
+* Data Type: CSV
+
+### Datasource1: Gold Prices 
+
+* Metadata URL: https://www.kaggle.com/datasets/odins0n/monthly-gold-prices
+* Data URL: https://www.kaggle.com/datasets/odins0n/monthly-gold-prices/download?datasetVersionNumber=4
 * Data Type: CSV
 
 ## Work Packages
