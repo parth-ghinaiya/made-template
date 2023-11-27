@@ -66,3 +66,4 @@ maildir
 .idea/
 kaggle.json
 *.csv
+*.sqlite
