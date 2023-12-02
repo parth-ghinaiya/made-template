@@ -24,3 +24,8 @@ chmod +x ./project/pipeline.sh
 ```
 ./project/pipeline.sh
 ```
+
+## Run test pipeline
+```
+./project/tests.sh
+```
