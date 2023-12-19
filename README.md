@@ -25,6 +25,11 @@ chmod +x ./project/pipeline.sh
 ./project/pipeline.sh
 ```
 
+## Give an execute permissions to the script file of the test pipeline
+```
+chmod +x ./project/tests.sh
+```
+
 ## Run test pipeline
 ```
 ./project/tests.sh
