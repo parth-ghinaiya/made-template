@@ -11,3 +11,5 @@ pip install -r ./project/requirements.txt
 
 # Run your Python file
 pytest ./project/test_pipeline.py
+
+echo "pytest script has been completed"

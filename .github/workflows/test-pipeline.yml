@@ -1,4 +1,4 @@
-name: Test Pipeline
+name: Workflow Action Test Pipeline
 
 on:
   push:
@@ -18,10 +18,10 @@ jobs:
           path: main
 
       # Install python!
-      - name: Set up Python 3.11
+      - name: Set up Python 3.10.9
         uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: 3.10.9
 
       # execute test pipeline
       - name: Continuous Integration
