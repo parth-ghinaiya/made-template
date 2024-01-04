@@ -22,14 +22,14 @@ def test_data_collector_pipeline():
     data_dict = dc.DATASET_DICT
     dc.data_collector()
 
-    co_db_engine = create_engine(f"sqlite:///data/{data_dict['CRUDE_OIL_DATASET']['database_name']}.sqlite")
+    co_db_engine = create_engine(f"sqlite:///../data/{data_dict['CRUDE_OIL_DATASET']['database_name']}.sqlite")
     inspector = inspect(co_db_engine)
     tables = inspector.get_table_names()
 
     assert len(tables) == 1
     assert data_dict['CRUDE_OIL_DATASET']['database_name'] in tables
 
-    gp_db_engine = create_engine(f"sqlite:///data/{data_dict['GOLD_PRICE_DATASET']['database_name']}.sqlite")
+    gp_db_engine = create_engine(f"sqlite:///../data/{data_dict['GOLD_PRICE_DATASET']['database_name']}.sqlite")
     inspector = inspect(gp_db_engine)
     tables = inspector.get_table_names()
 

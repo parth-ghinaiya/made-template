@@ -98,7 +98,7 @@ def dump_dataset_to_db(dataframe, db_name, datatype):
     :return:
     """
 
-    db_engine = create_engine(f"sqlite:///data/{db_name}.sqlite")
+    db_engine = create_engine(f"sqlite:///../data/{db_name}.sqlite")
     dataframe.to_sql(db_name, db_engine, index=False, if_exists='replace', dtype=datatype)
     return
 

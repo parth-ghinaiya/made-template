@@ -26,4 +26,4 @@ jobs:
       # execute test pipeline
       - name: Continuous Integration
         run: |
-          chmod +x ./main/project/tests.sh && cd ./main && ./project/tests.sh
+          chmod +x ./main/project/tests.sh && cd ./main/project && ./tests.sh
