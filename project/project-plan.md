@@ -18,7 +18,7 @@ relations between crude-oil price and gold market.
 * Data URL: https://www.kaggle.com/datasets/sc231997/crude-oil-price/download?datasetVersionNumber=31
 * Data Type: CSV
 
-### Datasource1: Gold Prices 
+### Datasource2: Gold Prices 
 
 * Metadata URL: https://www.kaggle.com/datasets/odins0n/monthly-gold-prices
 * Data URL: https://www.kaggle.com/datasets/odins0n/monthly-gold-prices/download?datasetVersionNumber=4

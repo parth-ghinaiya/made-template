@@ -18,7 +18,7 @@ DATASET_DICT = {
     "GOLD_PRICE_DATASET": {
         "dataset_path": "odins0n/monthly-gold-prices",
         "file_name": "1979-2021.csv",
-        "database_name": "gold_prices",
+        "database_name": "gold_price",
         "sqlalchemy_datatype": {
             'Date': DATE(), 'United States(USD)': FLOAT(asdecimal=True),
             'Europe(EUR)': FLOAT(asdecimal=True), 'Japan(JPY)': FLOAT(asdecimal=True),
