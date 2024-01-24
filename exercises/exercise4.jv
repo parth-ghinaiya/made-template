@@ -24,8 +24,8 @@ pipeline TempBaterry
             "Temperatur" oftype decimal, "Batterietemperatur" oftype decimal, "Geraet aktiv" oftype text,
         ];
     }
-  block TempTransformer oftype TableTransformer
-   {
+    block TempTransformer oftype TableTransformer
+    {
         inputColumns: ['Temperatur'];
         outputColumn: 'Temperatur';
         use: TempConvert;
